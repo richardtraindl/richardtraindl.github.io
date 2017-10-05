@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Trebuchet MS", Copperplate, "Myriad Pro", Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+header {
+    background-color: LightBlue;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 20px 10px 20px;
+}
+
+#wrapper {
+    background-color: Beige;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px 20px;
+    min-height: 240px;
+}
+
+h1, h1 * {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p, p * {
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+a, 
+a:link, 
+a:visited,
+a:active {
+    color: Blue;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+li {
+    list-style-type: square;
+    margin-left: 10px;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+.twocols {
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari and Chrome */
+    column-count: 2;
+    -moz-column-gap: 0px; /* Firefox */
+    -webkit-column-gap: 0px; /* Safari and Chrome */
+    column-gap: 0px;
+}
+
+img {
+  display: block;
+}
+
+.gallery {
+    width: 240px;
+    height: 240px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gap {
+  padding-bottom: 20px;
+}
+
+.small-gap {
+  padding-bottom: 10px;
+}
+
+.huge-gap {
+  padding-bottom: 30px;
+}
+
