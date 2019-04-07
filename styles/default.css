@@ -19,14 +19,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header {
-    background-color: LightBlue;
     border-radius: 8px;
     padding: 10px;
     margin: 20px 20px 10px 20px;
 }
 
 #wrapper {
-    background-color: Beige;
     border-radius: 8px;
     padding: 10px;
     margin: 0px 20px;
@@ -55,7 +53,7 @@ a,
 a:link, 
 a:visited,
 a:active {
-    color: Blue;
+    color: Black;
     text-decoration: none;
 }
 
