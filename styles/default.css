@@ -33,20 +33,18 @@ header {
 
 h1, h1 * {
     font-size: 26px;
+    padding: 10px 0px 10px 0px;
 }
 
 h2 {
     font-size: 22px;
-}
-
-h3 {
-    font-size: 20px;
+    padding: 10px 0px 10px 0px;
 }
 
 p, p * {
     font-size: 18px;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 a, 
@@ -63,7 +61,7 @@ a:hover{
 
 li {
     list-style-type: square;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .fontbold {
