@@ -18,17 +18,37 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-header {
-    border-radius: 8px;
-    padding: 10px;
-    margin: 20px 20px 10px 20px;
+body {
+    margin: 0px auto;
+    width: 720px;
 }
 
 #wrapper {
     border-radius: 8px;
+}
+
+header {
+    border-radius: 8px;
+    margin: 20px 0px 10px 0px;
+    padding: 20px;
+    background-color: Linen;
+    text-align: center;
+}
+
+header a, header a:link, header a:visited, header a:active {
+    color: Black;
+}
+
+#content {
     padding: 10px;
-    margin: 0px 20px;
+    max-width: 720px;
     min-height: 240px;
+}
+
+#footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: Linen;
 }
 
 h1, h1 * {
@@ -36,13 +56,14 @@ h1, h1 * {
     padding: 10px 0px 10px 0px;
 }
 
-h2 {
-    font-size: 22px;
+
+h2, h2 * {
+    font-size: 20px;
     padding: 10px 0px 10px 0px;
 }
 
 p, p * {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px 0px 0px 0px;
     padding: 10px 0px 10px 0px;
 }
@@ -51,7 +72,7 @@ a,
 a:link, 
 a:visited,
 a:active {
-    color: Black;
+    /*color: Black;*/
     text-decoration: none;
 }
 
