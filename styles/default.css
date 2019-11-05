@@ -49,6 +49,7 @@ header a, header a:link, header a:visited, header a:active {
     margin-top: 20px;
     padding: 10px;
     background-color: Linen;
+    min-height: 40px;
 }
 
 h1, h1 * {
