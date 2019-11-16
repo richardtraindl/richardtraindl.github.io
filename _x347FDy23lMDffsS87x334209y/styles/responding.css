@@ -1,0 +1,221 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow: scroll;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, section, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h1, h2, h3 {
+	padding: 10px 0px;
+}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	padding: 10px;
+}
+
+body {
+	background-color: #FFFFBB;
+	background-attachment: scroll; background-repeat: repeat-x;
+}
+
+#wrapper {
+	background-color: white;
+	width: 960px;
+	max-width: 90%;
+	margin: 20px auto 0px auto;
+	padding: 10px;
+}
+
+header {
+	display: table;
+	width: 100%;
+	background-color: lightgrey;
+	margin: 0px 0px 10px 0px;
+}
+
+header h1 {
+	width: 90%;
+	display: table-cell;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+header p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+nav {
+	margin: 0px 0px 10px 0px;
+}
+
+nav ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+nav li {
+	background-color: lightblue;
+	padding: 10px 0px 10px 0px;
+	width: 20%;
+	float: left;
+	display: inline-block;
+}
+
+#language * {
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+#content {
+	clear: both;
+}
+
+article {
+    margin: 10px 0px;
+}
+
+section {
+}
+
+.grid {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0px 0px 20px 0px;
+}
+
+.grid * {
+    box-sizing: border-box;
+}
+
+div[class*='row_'] {
+    background-color: lightgrey;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 5px;
+}
+
+.row_12_of_12 {
+    width: 99%;
+}
+
+.row_11_of_12 {
+	width: 90.66%;
+}
+
+.row_10_of_12 {
+	width: 82.33%;
+}
+
+.row_9_of_12 {
+	width: 74.00%;
+}
+
+.row_8_of_12 {
+	width: 65.66%;
+}
+
+.row_7_of_12 {
+	width: 57.33%; 
+}
+
+.row_6_of_12 {
+	width: 49.00%; 
+}
+
+.row_5_of_12 {
+	width: 40.66%; 
+}
+
+.row_4_of_12 {
+	width: 32.33%;
+}
+
+.row_3_of_12 {
+    width: 24.00%;
+}
+
+.row_2_of_12 {
+    width: 15.66%;
+}
+
+.row_1_of_12 {
+    width: 7.33%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 500 PIXELS */
+
+@media only screen and (max-width: 539px) {
+    header, header * {
+        display: inline-block;
+        text-align: center;
+    }
+    nav li {
+        clear: both;
+        background-color: white;
+        margin-bottom: 1px;
+        display: inline-block;
+    }
+    div[class*='row_'] {
+        width: 49%; 
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    header, header * {
+        display: inline-block;
+        text-align: center;
+    }
+    nav li {
+        clear: both;
+        background-color: white;
+        margin-bottom: 1px;
+        display: inline-block;
+    }
+    div[class*='row_'] {
+        width: 99%; 
+    }
+}
+
+
+.gal-gov1 img {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 0px 5px 5px 5px;
+}
+
+.german {
+    display: none;
+}
+
+
+.english {
+    display: display;
+}
