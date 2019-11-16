@@ -1,58 +1,10 @@
-<!DOCTYPE html>
+---
+layout: default2
+title: Governesses
+id: governesses2
+---
 
-<html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="styles/responding.css"></link>
-        <link rel="stylesheet" href="colorbox/colorbox.css"></link>
-
-        <script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
-        <script type="text/javascript" src="colorbox/jquery.colorbox-en.js"></script>
-
-        <title>Governesses</title>
-    </head>
-
-    <body>
-        <script>
-                $(document).ready(function(){
-                    $('a.gallery').colorbox({rel: 'grp1', maxWidth:'100%', slideshow: false });
-
-                    $("button#language").click(function(){
-                        if( $(this).text() == "english" ){
-                            $(this).text("german");
-                            $('span.english').css("display", "none");
-                            $('span.german').css("display", "inline");
-                        }
-                        else {
-                            $(this).text("english");
-                            $('span.german').css("display", "none");
-                            $('span.english').css("display", "inline");
-                        }
-                    });
-
-                });
-        </script>
-        
-        <div id="wrapper">
-            <header>
-                <h1><span class="english">Birchham - House of Correction</span><span class="german">Erziehungsinstitut Birkenhain</span></h1><p><button id="language">english</button></p>
-            </header>
-
-            <nav>
-                <ul>
-                    <li><a href="index.html"><span class="english">Welcome</span><span class="german">Willkommen</span></a></li>
-                    <li><a href="services.html"><span class="english">Services</span><span class="german">Service</span></a></li>
-                    <li><a href="governesses.html"><span class="english">Governesses</span><span class="german">Gouvernanten</span></a></li>
-                    <li><a href="punishments.html"><span class="english">Punishments</span><span class="german">Strafen</span></a></li>
-                    <li><a href="testimonials.html"><span class="english">Testimonials</span><span class="german">Empfehlungen</span></a></li>
-                </ul>
-            </nav>
-
-            <div id="content">
-                <article>
+<article>
     <h2>Governesses</h2>
     <div class="grid">
         <div class="row_6_of_12 gal-gov1">
@@ -131,10 +83,3 @@
         </div>
     </div>                 
 </article>
-
-            </div>
-        </div>
-    </body>
-</html>
-
-
