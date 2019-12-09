@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/styles/default.css">
+
+    <title> {{ page.title }} </title>
+  </head>
+
+  <body id="{{ page.id }}">
+    <div id="wrapper">
+        <header>
+            <h1><a href="/index.html">Wr.</a></h1>
+        </header>
+
+        <div id="content">
+            {{ content }}
+        </div>
+    </div>
+  </body>
+</html>
