@@ -129,3 +129,12 @@ img {
   padding-bottom: 30px;
 }
 
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 10px;
+  /*font-size: 30px;*/
+}
