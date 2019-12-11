@@ -20,7 +20,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     margin: 0px auto;
-    width: 720px;
+    width: 94%;
+    max-width: 720px;
 }
 
 #wrapper {
