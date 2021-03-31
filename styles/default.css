@@ -32,7 +32,6 @@ header {
     border-radius: 8px;
     margin: 20px 0px 10px 0px;
     padding: 20px;
-    background-color: Linen;
     text-align: center;
 }
 
@@ -49,7 +48,6 @@ header a, header a:link, header a:visited, header a:active {
 #footer {
     margin-top: 20px;
     padding: 10px;
-    /* background-color: Linen; */
     min-height: 40px;
 }
 
