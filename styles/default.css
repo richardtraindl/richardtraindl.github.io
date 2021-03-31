@@ -45,12 +45,6 @@ header a, header a:link, header a:visited, header a:active {
     min-height: 240px;
 }
 
-#footer {
-    margin-top: 20px;
-    padding: 10px;
-    min-height: 40px;
-}
-
 h1, h1 * {
     font-size: 26px;
     padding: 10px 0px 10px 0px;
