@@ -4,20 +4,23 @@
   <head>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="/styles/default.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> {{ page.title }} </title>
+    <link rel="stylesheet" href="/static/all.css" media="all"></link>
+
+    <script src="/static/jquery-1.11.1.min.js"></script>
+
+    <title>{{ page.title }}</title>
   </head>
 
-  <body id="{{ page.id }}">
+  <body>
     <div id="wrapper">
-        <header>
-            <h1>Logbuch</h1>
-        </header>
 
-        <div id="content">
-            {{ content }}
-        </div>
-    </div>
+      {% include _header.html %}
+
+      {{ content }}
+
+    </div> <!-- end wrapper -->
   </body>
+
 </html>
