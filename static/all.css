@@ -29,8 +29,17 @@ body {
   background-color: White;
   width: 992px;
   margin: 0px auto;
-  grid-gap: 0px;
+  /*grid-gap: 0px;*/
   padding: 0px; 
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    width: 100%;
+  }
+  #wrapper{
+    width: 100%;
+  }
 }
 
 header{ 
