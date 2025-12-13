@@ -8,7 +8,7 @@
   font-family: Helvetica;
   font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
   color: Black;
 }
 
@@ -24,8 +24,9 @@ body {
 }
 
 #wrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+  background-color: White;
   width: 992px;
   margin: 0px auto;
   grid-gap: 0px;
@@ -35,7 +36,6 @@ body {
 header{ 
   grid-row: 1;
   grid-column: 1 / span 6;
-  padding: 20px;
   background-color: White;
 }
 
@@ -52,6 +52,10 @@ nav{
   grid-column: 1 / span 6;
   padding: 10px 0px 10px 20px;
   background-color: LightGray;
+}
+
+article{
+    padding: 20px;
 }
 
 #center{ 
@@ -106,7 +110,7 @@ p, p a {
 
 a, a:link, a:visited, a:active, a:focus {
   text-decoration: none;
-  color: Black;
+  color: Blue;
 }
 
 nav li{
@@ -127,6 +131,7 @@ img {
 
 .fbold {
   font-weight: bold;
+  font-size: 100%;
 }
 
 .fitalic {
@@ -148,21 +153,4 @@ img {
 
 .huge-gap {
   padding-bottom: 30px;
-}
-
-#gal{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 0px;
-  padding: 0px;
-  grid-gap: 0px;
-}
-
-#gal4x4{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-row-gap: 0px;
-  grid-column-gap: 0px;
-  padding: 0px;
-  /*background-color: darkgray;*/
 }
