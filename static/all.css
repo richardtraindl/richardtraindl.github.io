@@ -8,7 +8,7 @@
   font-family: Helvetica;
   font-weight: normal;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: Black;
 }
 
@@ -27,25 +27,16 @@ body {
   margin: 0px auto;
 }
 
-@media screen and (max-width: 920px) {
-  body {
-    width: 100%;
-  }
-  #wrapper{
-    width: 100%;
-  }
-}
-
 header{ 
-  background-color: White;
+  display: flex;
+  align-items: center;
   margin: 0.75em 0 0.25em 0;
+  background-color: White;
 }
 
 header h1{ 
-  font-size: 2em;
-  line-height: 2.4em;
-  margin: auto 1em;
-  padding: 0;
+  margin: auto 0;
+  padding: 0 0 0 1em;
 }
 header img{ 
   width: 10em;
@@ -65,19 +56,16 @@ article{
 
 h1, h1 a {
   font-size: 2em;
-  line-height: 2.25em;
   padding: 1.25em 0;
 }
 
 h2, h2 a { 
   font-size: 1.4em; 
-  line-height: 1.6em; 
   padding: 1.25em 0 0.5em 0;
 }
 
 h3, h3 a { 
   font-size: 1.2em; 
-  line-height: 1.4em; 
   padding: 1.25em 0 0.5em 0;
 }
 
@@ -115,4 +103,10 @@ li {
 
 .gap {
   padding-bottom: 1.25em;
+}
+
+@media screen and (max-width: 920px) {
+  #wrapper{
+    width: 100%;
+  }
 }
