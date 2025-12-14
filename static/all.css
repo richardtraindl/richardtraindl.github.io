@@ -109,6 +109,9 @@ li {
   #wrapper{
     width: 100%;
   }
+  header h1{
+    padding-left: 0.5em;
+  }
   header img{
     width: 5em;
   }
