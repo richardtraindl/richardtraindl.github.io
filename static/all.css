@@ -7,7 +7,6 @@
   text-align: left;
   font-family: Helvetica;
   font-weight: normal;
-  font-size: 16px;
   line-height: 1.25;
   color: Black;
 }
@@ -16,6 +15,10 @@
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, img {
   display: block;
+}
+
+html{
+  font-size: 16px;
 }
 
 body {
@@ -89,7 +92,6 @@ li {
 
 .fbold {
   font-weight: bold;
-  font-size: 100%;
 }
 
 .fitalic {
