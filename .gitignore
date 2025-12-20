@@ -1,6 +1,9 @@
 ## Jekyll-Generated Site
 
 _site/
+
+sourcen/
+
 *.geany
 
 .jekyll-cache
