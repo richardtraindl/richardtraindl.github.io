@@ -30,7 +30,7 @@ html {
 header{ 
   display: flex;
   align-items: center;
-  margin: 0.75em 0 0.1em 0;
+  margin: 0.75em 0 0.2em 0;
   background-color: White;
 }
 
@@ -45,8 +45,8 @@ header img{
 
 nav{ 
   padding: 0.75em 0 0.6em 0.75em;
-  margin: 0 0 0.1em 0;
-  background-color: White;
+  margin: 0 0 0.2em 0;
+  background-color: WhiteSmoke; /* White */
 }
 
 article{
