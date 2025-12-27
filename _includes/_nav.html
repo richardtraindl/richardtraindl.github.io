@@ -2,16 +2,23 @@
     <ul>
       <li>
        {% if page.id == "index" %}
-         <a href="index.html" class="fbold">Wanderungen</a>
+         <a href="index.html" class="fbold">Willkommen</a>
         {% else %}
-          <a href="index.html">Wanderungen</a>
+          <a href="index.html">Willkommen</a>
         {% endif %}
       </li>
       <li>
-       {% if page.id == "neues" %}
-         <a href="neues.html" class="fbold">Neues</a>
+       {% if page.id == "musik" %}
+         <a href="musik.html" class="fbold">Musik</a>
         {% else %}
-          <a href="neues.html">Neues</a>
+          <a href="musik.html">Musik</a>
+        {% endif %}
+      </li>
+      <li>
+       {% if page.id == "wanderungen" %}
+         <a href="wanderungen.html" class="fbold">Wanderungen</a>
+        {% else %}
+          <a href="wanderungen.html">Wanderungen</a>
         {% endif %}
       </li>
     </ul>
