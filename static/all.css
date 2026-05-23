@@ -108,6 +108,9 @@ li {
   #wrapper{
     width: 100%;
   }
+  header{ 
+    margin: 0 0 0.2em 0;
+  }
   header h1{
     padding-left: 0.25em;
   }
